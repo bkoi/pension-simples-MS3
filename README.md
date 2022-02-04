@@ -55,13 +55,13 @@ View deployed site on [Heroku](https://id.heroku.com/login).
     &nbsp;&nbsp;&nbsp;&nbsp;name: "Ann Smith"<br>
     &nbsp;&nbsp;&nbsp;&nbsp;email: "ann@gmail.com",<br>
     &nbsp;&nbsp;&nbsp;&nbsp;password : "Dr0pBox9",<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;password : "beneficiary"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;term : "beneficiary"<br>
     }
     
     **Collection: terms**<br>
     {<br>
     &nbsp;&nbsp;&nbsp;&nbsp;_id: unique-value,<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;term_name: "beneficiary"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;termName: "beneficiary"<br>
     &nbsp;&nbsp;&nbsp;&nbsp;definition: "It is someone who benefits        from your pension or annuity should you pass away.",<br>
     }
    
@@ -147,7 +147,7 @@ View deployed site on [Heroku](https://id.heroku.com/login).
 * HTML validation via [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
 * CSS validation via [W3C CS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
 * JavaScript validation via [JSHint](https://jshint.com/) - [Results]()
-* Python validation via [PEP8 Validator](http://pep8online.com/)
+* Python validation via [PEP8 Validator](http://pep8online.com/) - [Results]()
 
 ### Testing User stories from User Experience Section
 * #### User Goals
@@ -253,8 +253,11 @@ If you like this project and would like to use it as a starting point or want to
 ## Credits
 
 ### Content
-I have utilisew some of the structural design of [Daisy McGirr's](https://github.com/Daisy-McG/Motorbike-Event-Finder) README and copied her deployment steps.
+The actual design of my website has been inspired by the structural layout of the [Urban Dictionary](https://www.urbandictionary.com/) and [Royal London Pensions Glossary](https://www.royallondon.com/articles-guides/pensions-and-retirement/pensions-glossary/) sites
 
+I have utilised some of the structural design of [Daisy McGirr's](https://github.com/Daisy-McG/Motorbike-Event-Finder) README and copied her deployment steps.
+
+The pension definitions are from the [Scottish Widows](https://www.scottishwidows.co.uk/retirement/retirement-explained/basics/) and [Royal London](https://www.royallondon.com/articles-guides/pensions-and-retirement/pensions-glossary/) websites
 
 ### Design
 Color palette inspiration: 
